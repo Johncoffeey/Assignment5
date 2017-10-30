@@ -18,7 +18,11 @@ public class Assignment5
     public static void main(String[] args)
     {
         Test tester = new Test();
-        tester.test();
+        tester.testPerson();
+        tester.testTeacher();
+        tester.testStudent();
+        tester.testPersonManager();
+
     }
 
 }
