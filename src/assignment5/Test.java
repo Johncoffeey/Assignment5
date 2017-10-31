@@ -70,7 +70,7 @@ public class Test
         students.add(a);
         students.add(b);
 
-        for (Person student : students)
+        for (Student student : students)
         {
             System.out.println(student.toString());
         }
@@ -92,7 +92,7 @@ public class Test
         teachers.add(a);
         teachers.add(b);
 
-        for (Person teacher : teachers) //Person or Teacher prints the same??
+        for (Teacher teacher : teachers) //Person or Teacher prints the same??
         {
             System.out.println(teacher.toString());
         }
