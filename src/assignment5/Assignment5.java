@@ -5,6 +5,8 @@
  */
 package assignment5;
 
+import assignment5.gui.MainMenu;
+
 /**
  *
  * @author ddose
@@ -18,11 +20,12 @@ public class Assignment5
     public static void main(String[] args)
     {
         Test tester = new Test();
-        tester.testPerson();
-        tester.testTeacher();
-        tester.testStudent();
-        tester.testPersonManager();
+        //tester.testPerson();
+        //tester.testTeacher();
+        //tester.testStudent();
+        //tester.testPersonManager();
 
+        new MainMenu().run();
     }
 
 }

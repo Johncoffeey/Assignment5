@@ -98,19 +98,18 @@ public class Test
         }
     }
 
-    public void testPerson()
-    {
-        List<Person> persons = new ArrayList<>();
-
-        persons.add(new Person(100, "Hans Nielsen"));
-        persons.add(new Person(101, "Niels Hansen"));
-        persons.add(new Person(102, "Ib Boesen"));
-
-        for (Person person : persons)
-        {
-            System.out.println(person.toString());
-        }
-
-    }
-
+//    public void testPerson()
+//    {
+//        List<Person> persons = new ArrayList<>();
+//
+//        persons.add(new Person(100, "Hans Nielsen"));
+//        persons.add(new Person(101, "Niels Hansen"));
+//        persons.add(new Person(102, "Ib Boesen"));
+//
+//        for (Person person : persons)
+//        {
+//            System.out.println(person.toString());
+//        }
+//
+//    }
 }

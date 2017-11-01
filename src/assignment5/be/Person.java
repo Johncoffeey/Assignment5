@@ -9,7 +9,7 @@ package assignment5.be;
  *
  * @author ddose
  */
-public class Person
+public abstract class Person
 {
 
     private int id;
