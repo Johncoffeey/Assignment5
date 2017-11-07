@@ -122,6 +122,7 @@ public abstract class Menu
      */
     protected void clear()
     {
+        System.out.println("");
 
     }
 }

@@ -14,7 +14,7 @@ public class MainMenu extends Menu
 
     public MainMenu()
     {
-        super("Main menu", "Option A", "Option B", "Option C");
+        super("Main menu", "Option A", "Person menu", "Option C");
     }
 
     @Override
@@ -26,7 +26,8 @@ public class MainMenu extends Menu
                 System.out.println("You choose option 1");
                 break;
             case 2:
-                System.out.println("You choose option 2");
+                System.out.println("You moved to person menu");
+                new PersonMenu().run();
                 break;
             case 3:
                 System.out.println("You choose option 3");
